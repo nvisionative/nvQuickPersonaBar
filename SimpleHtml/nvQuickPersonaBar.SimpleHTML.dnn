@@ -1,0 +1,51 @@
+<dotnetnuke type="Package" version="5.0">
+    <packages>
+        <package name="nvQuickPersonaBar.SimpleHTML" type="PersonaBar" version="01.00.00">
+            <friendlyName>nvQuickPersonaBar Simple HTML</friendlyName>
+            <description>nvQuickPersonaBar Simple HTML is a simple HTML only example of a DNN Persona Bar extension.</description>
+            <iconFile>~/Images/icon-personabarapp-32px.png</iconFile>
+            <owner>
+                <name>David Poindexter</name>
+                <organization>nvisionative, Inc.</organization>
+                <url>https://www.nvisionative.com</url>
+                <email>info@nvisionative.com</email>
+            </owner>
+            <license src="License.txt"></license>
+            <releaseNotes src="ReleaseNotes.txt"></releaseNotes>
+            <dependencies>
+                <dependency type="CoreVersion">09.00.00</dependency>
+                <dependency type="ManagedPackage" version="01.00.00">Dnn.PersonaBar.UI</dependency>
+            </dependencies>
+            <azureCompatible>true</azureCompatible>
+            <components>
+                <component type="ResourceFile">
+                    <resourceFiles>
+                        <basePath>DesktopModules/admin/Dnn.PersonaBar/Modules/nvQuickPersonaBar.SimpleHTML</basePath>
+                        <resourceFile>
+                            <name>Resources.zip</name>
+                        </resourceFile>
+                    </resourceFiles>
+                </component>
+                <component type="Assembly">
+                    <assemblies>
+                        <assembly>
+                            <name>nvQuickPersonaBar.SimpleHTML.dll</name>
+                            <path>bin</path>
+                        </assembly>
+                    </assemblies>
+                </component>
+                <component type="PersonaBarMenu">
+                    <menu>
+                        <identifier>nvQuickPersonaBar.SimpleHTML</identifier>
+                        <moduleName>SimpleHTML</moduleName>
+                        <resourceKey>nav_SimpleHTML</resourceKey>
+                        <path>SimpleHTML</path>
+                        <mobileSupport>true</mobileSupport>
+                        <parent>Content</parent>
+                        <order>1</order>
+                    </menu>
+                </component>
+            </components>
+        </package>
+    </packages>
+</dotnetnuke>

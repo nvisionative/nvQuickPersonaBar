@@ -1,0 +1,1 @@
+﻿nvQuickPersonaBar Simple HTML is a simple HTML only example of a DNN Persona Bar extension.

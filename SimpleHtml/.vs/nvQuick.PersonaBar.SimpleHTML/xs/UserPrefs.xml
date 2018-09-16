@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{7BDE3794-A682-4A7A-B06E-931B97D40DB3}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="nvQuick.PersonaBar.SimpleHTML.dnn">
+    <Files>
+      <File FileName="Solution.build" Line="1" Column="1" />
+      <File FileName="nvQuick.PersonaBar.SimpleHTML.dnn" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="nvQuick.PersonaBar.SimpleHTML" expanded="True">
+            <Node name="nvQuick.PersonaBar.SimpleHTML" expanded="True">
+              <Node name="admin" expanded="True">
+                <Node name="personaBar" expanded="True">
+                  <Node name="App_LocalResources" expanded="True" />
+                  <Node name="css" expanded="True" />
+                  <Node name="scripts" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="nvQuick.PersonaBar.SimpleHTML.dnn" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.nvQuick.PersonaBar.SimpleHTML PreferredExecutionTarget="MonoDevelop.Default" />
+  <AuthorInfo Name="David Poindexter" Email="info@nvisionative.com" Copyright="2018" Company="nvisionative, Inc." Trademark="" />
+  <MultiItemStartupConfigurations />
+</Properties>
