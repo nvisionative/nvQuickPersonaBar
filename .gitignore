@@ -13,7 +13,7 @@
 applicationhost.config
 
 # User-specific files (MonoDevelop/Xamarin Studio)
-*.UserPrefs
+UserPrefs.xml
 
 # Build results
 [Dd]ebug/
@@ -40,8 +40,8 @@ applicationhost.config
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
-xs/
-sqlite3/
+*/xs/
+*/sqlite3/
 
 # Visual Studio profiler
 *.psess
