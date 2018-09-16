@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{7BDE3794-A682-4A7A-B06E-931B97D40DB3}|">
   <MonoDevelop.Ide.ItemProperties.nvQuickPersonaBar.SimpleHTML PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="admin/personaBar/SimpleHTML.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../.gitignore">
     <Files>
       <File FileName="Solution.build" Line="1" Column="1" />
       <File FileName="ReleaseNotes.txt" Line="1" Column="26" />
@@ -8,7 +8,8 @@
       <File FileName="License.txt" Line="3" Column="1" />
       <File FileName="Properties/AssemblyInfo.cs" Line="8" Column="66" />
       <File FileName="Module.build" Line="6" Column="27" />
-      <File FileName="admin/personaBar/SimpleHTML.html" Line="7" Column="70" />
+      <File FileName="admin/personaBar/SimpleHTML.html" Line="6" Column="80" />
+      <File FileName="../.gitignore" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
