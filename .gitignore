@@ -12,8 +12,7 @@
 *.local.sln
 applicationhost.config
 
-# User-specific files (MonoDevelop/Xamarin Studio)
-UserPrefs.xml
+.vs/
 
 # Build results
 [Dd]ebug/
@@ -37,11 +36,6 @@ UserPrefs.xml
 *.dotCover
 *.ldf
 *.orig
-
-# Visual Studio 2015/2017 cache/options directory
-.vs/
-*/xs/
-*/sqlite3/
 
 # Visual Studio profiler
 *.psess
