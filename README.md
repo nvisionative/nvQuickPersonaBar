@@ -10,13 +10,13 @@ you choose to use (or not use).
 This is an HTML only Persona Bar extension and does not require knowledge of React, or any other framework for that matter.  The only 
 JavaScript is the required boilerplate code for any Persona Bar extension.
 
+### Simple Vue
+This is a VueJs Persona Bar extension and does not require knowledge of React.  JavaScript is the required boilerplate code for any Persona Bar extension.  The remaining is all VueJs.  This particular extension uses VueJs with Babel, Typescript, CSS Pre-processors and a Linter / Formatter.
+
 ### Simple Angular
 In development...
 
 ### Simple AngularJS (v1)
-TODO...
-
-### Simple Vue
 TODO...
 
 ### Simple React
