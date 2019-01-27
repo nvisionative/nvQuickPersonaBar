@@ -14,7 +14,7 @@ JavaScript is the required boilerplate code for any Persona Bar extension.
 This is a VueJs Persona Bar extension and does not require knowledge of React.  JavaScript is the required boilerplate code for any Persona Bar extension.  The remaining is all VueJs.  This particular extension uses VueJs with Babel, Typescript, CSS Pre-processors and a Linter / Formatter.
 
 ### Simple Angular
-In development...
+This is an Angular Persona Bar extension and does not require knowledge of React.  JavaScript is the required boilerplate code for any Persona Bar extension.  The remaining is all Angular.  This particular extension uses Angular with Typescript and TSLint.
 
 ### Simple AngularJS (v1)
 TODO...
