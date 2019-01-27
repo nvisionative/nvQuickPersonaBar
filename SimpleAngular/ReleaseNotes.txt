@@ -1,0 +1,1 @@
+﻿nvQuickPersonaBar Simple Angular is a simple Angular example of a DNN Persona Bar extension.
