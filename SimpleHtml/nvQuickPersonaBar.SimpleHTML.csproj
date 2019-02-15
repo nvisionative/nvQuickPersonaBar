@@ -67,18 +67,16 @@
     <Content Include="admin\personaBar\scripts\SimpleHTML.js" />
     <Content Include="License.txt" />
     <Content Include="ReleaseNotes.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Module.build" />
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="nvQuickPersonaBar.SimpleHTML.dnn" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Solution.build" />
+    <Content Include="admin\personaBar\App_LocalResources\SimpleHTML.resx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="admin\personaBar\App_LocalResources\SimpleHTML.resx" />
+    <None Include="BuildScripts\ModulePackage.targets" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
@@ -96,5 +94,7 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
-  <Import Project="Module.build" />
+  <Import Project="packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
+  <Import Project="BuildScripts\ModulePackage.Targets" />
+  <Target Name="AfterBuild" DependsOnTargets="DeployModule;PackageModule" />
 </Project>
