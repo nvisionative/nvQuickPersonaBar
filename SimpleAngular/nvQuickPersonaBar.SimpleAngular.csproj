@@ -70,13 +70,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Module.build" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="nvQuickPersonaBar.SimpleAngular.dnn" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Solution.build" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin\personaBar\App_LocalResources\SimpleAngular.resx" />
