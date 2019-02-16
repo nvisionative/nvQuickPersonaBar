@@ -67,15 +67,10 @@
     <Content Include="admin\personaBar\scripts\SimpleVue.js" />
     <Content Include="License.txt" />
     <Content Include="ReleaseNotes.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Module.build" />
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="nvQuickPersonaBar.SimpleVue.dnn" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Solution.build" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin\personaBar\App_LocalResources\SimpleVue.resx" />
@@ -84,18 +79,7 @@
     <Folder Include="SimpleVue.Web\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Build\BuildScripts\DotNetNuke.MSBuild.Tasks.dll" />
-    <None Include="Build\BuildScripts\DotNetNuke.build" />
-    <None Include="Build\BuildScripts\Evoq_Package.build" />
-    <None Include="Build\BuildScripts\ICSharpCode.SharpZipLib.dll" />
-    <None Include="Build\BuildScripts\MSBuild.Community.Tasks.Targets" />
-    <None Include="Build\BuildScripts\MSBuild.Community.Tasks.dll" />
-    <None Include="Build\BuildScripts\Module.build" />
-    <None Include="Build\BuildScripts\ModulePackage.targets" />
-    <None Include="Build\BuildScripts\Package.targets" />
-    <None Include="Build\BuildScripts\SharpZipLib.dll" />
-    <None Include="Build\BuildScripts\Variables.build" />
-    <None Include="Build\BuildScripts\yuicompressor.jar" />
+    <None Include="BuildScripts\ModulePackage.targets" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
@@ -113,5 +97,7 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
-  <Import Project="Module.build" />
+  <Import Project="packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
+  <Import Project="BuildScripts\ModulePackage.Targets" />
+  <Target Name="AfterBuild" DependsOnTargets="DeployModule;PackageModule" />
 </Project>
